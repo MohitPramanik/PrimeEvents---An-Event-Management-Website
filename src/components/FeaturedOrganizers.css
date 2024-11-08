@@ -1,0 +1,56 @@
+/* Container for the section */
+.organizers-section {
+    width: 100%;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    position: relative;
+  }
+  
+  .organizers-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Main container for the carousel */
+  .organizers-carousel {
+    display: flex;
+    gap: 20px;
+    overflow-x: hidden;
+    white-space: nowrap;
+    position: relative;
+    scroll-behavior: smooth;
+  }
+  
+  /* Styling for each item in the carousel */
+  .organizer-item {
+    flex-shrink: 0;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .organizer-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .organizer-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  /* Ensures smooth continuous scrolling */
+  .organizers-carousel::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .organizers-carousel:hover {
+    cursor: pointer;
+  }
+  

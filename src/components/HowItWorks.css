@@ -1,0 +1,80 @@
+/* Main Section */
+.how-it-works {
+    padding: 5rem 2rem;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .how-it-works-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .section-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 3rem;
+  }
+  
+  /* Steps Container using Grid */
+  .steps-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    position: relative;
+    margin-top: 3rem;
+  }
+  
+  /* Step */
+  .step {
+    text-align: center;
+  }
+  
+  .step-icon {
+    background-color: #0072ff;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    display: inline-block;
+  }
+  
+  .step-icon img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .step-content h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #0072ff;
+    margin-bottom: 1rem;
+  }
+  
+  .step-content p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .steps-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .steps-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  

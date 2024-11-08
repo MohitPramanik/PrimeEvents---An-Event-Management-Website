@@ -1,0 +1,43 @@
+#upcoming-events-section {
+    padding: 3em;
+    overflow: hidden;
+}
+
+#upcoming-events-title {
+    text-align: center;
+    font-size: 3.4rem;
+    margin-bottom: 4rem;
+}
+
+#upcoming-event-detail-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#upcoming-event-detail {
+    padding-right: 4rem;
+}
+
+#upcoming-event-detail h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#upcoming-event-detail p {
+    font-size: 1.36rem;
+}
+
+@media (max-width: 650px) {
+    #upcoming-event-detail-area {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 3rem;
+    }
+
+    #upcoming-event-detail {
+        padding: 0;
+        width: 100%;
+    }
+}
